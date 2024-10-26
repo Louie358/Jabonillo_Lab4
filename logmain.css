@@ -1,0 +1,41 @@
+body {
+    background-image: url("img/IEATBLDG.jpg"); /* Update this to your preferred background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Custom primary color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+
+h2 {
+    color: #333; /* Dark text color for the title */
+    font-weight: bold;
+}
+
+label {
+    font-weight: 500; /* Slightly bold labels */
+}
+
+.form-control {
+    border-radius: 10px; /* Rounded input fields */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for input fields */
+}
+
+.alert {
+    margin: 10px 0; /* Space above and below the alert */
+}
+
+.text-muted {
+    font-weight: 600; /* Slightly bold sign-up link */
+}

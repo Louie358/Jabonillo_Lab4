@@ -1,0 +1,66 @@
+body {
+    background: url('img/IEATBLDG1.jpg') no-repeat center center fixed; /* Replace with your image path */
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    color: #003366; /* Dark blue color typical for university branding */
+    text-align: center; /* Center align the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.form-group label {
+    color: #003366; /* Dark blue label color */
+    font-weight: bold; /* Bold labels for better visibility */
+}
+.form-control {
+    border-radius: 5px;
+}
+.btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #00509e; /* Darker shade on hover */
+    border-color: #00509e; /* Consistent hover border */
+}
+
+.alert {
+    margin-top: 10px; /* Space above the alert */
+}
+
+p {
+    text-align: center; /* Center align text */
+}
+
+a {
+    color: #00509e; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+    color: #0056b3;
+}
